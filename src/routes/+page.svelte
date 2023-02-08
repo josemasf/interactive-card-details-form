@@ -24,6 +24,7 @@
 				id="card-number"
 				class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
 				placeholder="e.g. 1234 5678 9123 0000"
+				maxlength="16"
 			/>
 		</div>
 		<div class="flex gap-5">
