@@ -3,11 +3,19 @@
 >
 	<div>
 		<div
-			class="bg-[url('/bg-card-front.png')] bg-no-repeat h-[245px] w-[448px] rounded-xl ml-[150px] mt-[75px] shadow-xl"
-		/>
+			class="bg-[url('/bg-card-front.png')] bg-no-repeat h-[245px] w-[448px] rounded-xl ml-[150px] mt-[75px] shadow-xl text-slate-100"
+		>
+			<div class="text-3xl pt-[130px] w-full text-center tracking-widest ">0000 0000 0000 0000</div>
+			<div class="flex justify-between mt-5 mx-8  text-sm tracking-wider">
+				<div class="uppercase">Jane Appleseed</div>
+				<div>00/00</div>
+			</div>
+		</div>
 		<div
-			class="bg-[url('/bg-card-back.png')] bg-no-repeat h-[245px]  w-[448px] rounded-xl  ml-[225px] mt-10  shadow-xl"
-		/>
+			class="bg-[url('/bg-card-back.png')] bg-no-repeat h-[245px]  w-[448px] rounded-xl  ml-[225px] mt-10  shadow-xl text-slate-100"
+		>
+			<div class="pt-[110px] pl-[350px] w-full   tracking-widest ">000</div>
+		</div>
 	</div>
 	<div class="flex flex-col gap-3  justify-center ml-20 max-w-sm">
 		<div>
