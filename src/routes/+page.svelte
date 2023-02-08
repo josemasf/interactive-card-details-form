@@ -1,14 +1,22 @@
 <script>
 	import FrontCard from '../component/FrontCard.svelte';
 	import BackCard from '../component/BackCard.svelte';
+
+	const creditCard = {
+		cardNumber: '0000 0000 0000 0001',
+		name: 'Jose M Santos',
+		year: 12,
+		month: 5,
+		cvv2: 123
+	};
 </script>
 
 <div
 	class="bg-[url('/bg-main-desktop.png')] bg-no-repeat h-full lg:h-[95%] lg:w-11/12 lg:my-5 flex w-full"
 >
 	<div>
-		<FrontCard cardNumber={'0000 0000 0000 0001'} name="Jose" year={12} month={5} />
-		<BackCard cvv2={123} />
+		<FrontCard {...creditCard} />
+		<BackCard {...creditCard} />
 	</div>
 	<div class="flex flex-col gap-3  justify-center ml-20 max-w-sm">
 		<div>
