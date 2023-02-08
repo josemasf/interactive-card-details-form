@@ -3,7 +3,7 @@
 	import BackCard from '../component/BackCard.svelte';
 
 	const creditCard = {
-		cardNumber: '0000 0000 0000 0001',
+		number: '0000 0000 0000 0001',
 		name: 'Jose M Santos',
 		year: 12,
 		month: 5,
@@ -25,6 +25,7 @@
 				id="name"
 				class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
 				placeholder="e.g. Jane Appleseed"
+				bind:value={creditCard.name}
 			/>
 		</div>
 		<div>
@@ -34,6 +35,7 @@
 				class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
 				placeholder="e.g. 1234 5678 9123 0000"
 				maxlength="16"
+				bind:value={creditCard.number}
 			/>
 		</div>
 		<div class="flex gap-5">
@@ -45,11 +47,13 @@
 						class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm w-"
 						placeholder="MM"
 						maxlength="2"
+						bind:value={creditCard.month}
 					/><input
 						id="yy"
 						class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
 						placeholder="YY"
 						maxlength="2"
+						bind:value={creditCard.year}
 					/>
 				</div>
 			</div>
@@ -60,6 +64,7 @@
 					class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
 					placeholder="123"
 					maxlength="3"
+					bind:value={creditCard.cvv2}
 				/>
 			</div>
 		</div>
