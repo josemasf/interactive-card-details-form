@@ -22,13 +22,13 @@
 </script>
 
 <div
-	class="bg-[url('/bg-main-mobile.png')] md:bg-[url('/bg-main-desktop.png')] bg-no-repeat h-full lg:h-[95%] lg:w-11/12 lg:my-5 md:flex  w-full shadow-xl bg-slate-100"
+	class="bg-[url('/bg-main-mobile.png')] md:bg-[url('/bg-main-desktop.png')] bg-top bg-repeat-x md:bg-left md:bg-no-repeat h-full lg:h-[95%] lg:w-11/12 lg:my-5 flex flex-col md:flex-row w-full shadow-xl bg-slate-100 "
 >
-	<div>
+	<div class="ml-5 ">
 		<FrontCard {...creditCard} />
 		<BackCard {...creditCard} />
 	</div>
-	<div class="flex flex-col gap-3  justify-center ml-20 max-w-sm">
+	<div class="flex flex-col gap-3  justify-center ml-20 max-w-sm md:pr-5">
 		<div>
 			<label for="name" class="pb-1 uppercase font-bold block">Cardholder name</label>
 			<input
@@ -60,9 +60,10 @@
                         w-full
                         px-3
                         py-3
-                        rounded
+                        rounded-lg
                         transition
                         ease-in-out
+                        text-sm shadow-sm
                         m-0
                         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
 						placeholder="MM"
@@ -77,9 +78,10 @@
                         block
                         w-full
                         px-3
-                        py-3
-                        rounded
+                        py-4
+                        rounded-lg
                         transition
+                        text-sm shadow-sm
                         ease-in-out
                         my-0
                         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
