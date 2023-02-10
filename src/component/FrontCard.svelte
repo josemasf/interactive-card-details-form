@@ -14,12 +14,13 @@
 	$: cardNumber = creditCardNumber(number, '#### #### #### ####');
 </script>
 
-<div
-	class="bg-[url('/bg-card-front.png')] bg-no-repeat h-[245px] w-[448px] rounded-xl ml-[150px] mt-[75px] shadow-xl text-slate-100"
->
-	<div class="text-3xl pt-[130px] w-full text-center tracking-widest ">{cardNumber}</div>
-	<div class="flex justify-between mt-5 mx-8  text-sm tracking-wider">
-		<div class="uppercase">{name}</div>
-		<div>{month}/{year}</div>
+<div class="w-fit rounded-xl  text-slate-100 md:mt-10 md:ml-28">
+	<div class="relative z-10 top-36 md:top-48 mx-8">
+		<div class="text-lg md:text-3xl w-full text-center tracking-widest">{cardNumber}</div>
+		<div class="flex justify-between text-sm tracking-wider mt-5">
+			<div class="uppercase">{name}</div>
+			<div>{month}/{year}</div>
+		</div>
 	</div>
+	<img src="/bg-card-front.png" alt="card front side" class="z-0 shadow-xl" />
 </div>

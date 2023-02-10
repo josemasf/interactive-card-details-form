@@ -2,8 +2,7 @@
 	export let cvv2: number;
 </script>
 
-<div
-	class="bg-[url('/bg-card-back.png')] bg-no-repeat h-[245px]  w-[448px] rounded-xl  ml-[225px] mt-10  shadow-xl text-slate-100"
->
-	<div class="pt-[110px] pl-[350px] w-full   tracking-widest ">{cvv2}</div>
+<div class="rounded-xl shadow-xl text-slate-100 w-fit lg:ml-60 flex-row-reverse">
+	<div class="relative top-32 right-14 w-full text-right tracking-widest z-10">{cvv2}</div>
+	<img src="/bg-card-back.png" alt="card back side" class="z-0" />
 </div>
