@@ -1,38 +1,55 @@
-# create-svelte
+# Frontend Mentor - Interactive card details form solution
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a solution to the [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Creating a project
+## Table of contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### The challenge
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Users should be able to:
 
-## Developing
+- Fill in the form and see the card details update in real-time
+- Receive error messages when the form is submitted if:
+  - Any input field is empty
+  - The card number, expiry date, or CVC fields are in the wrong format
+- View the optimal layout depending on their device's screen size
+- See hover, active, and focus states for interactive elements on the page
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Screenshot
 
-```bash
-npm run dev
+![](./screenshot-1.png)
+![](./screenshot-2.png)
+![](./screenshot-3.png)
+![](./screenshot-4.png)
+![](./screenshot-5.png)
+![](./screenshot-6.png)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Links
 
-## Building
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-To create a production version of your app:
+### Built with
 
-```bash
-npm run build
-```
+- Semantic HTML5 markup
+- Tailwind
+- [Svelte](https://svelte.dev/) - JS library
 
-You can preview the production build with `npm run preview`.
+### What I learned
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+First use of Svelte to build something
+
+## Author
+
+- Website - [José María Santos](https://josemariasantos.com/)
+- Frontend Mentor - [@josemasf](https://www.frontendmentor.io/profile/josemasf)
+- Twitter - [@josemasf](https://www.twitter.com/josemasf)
