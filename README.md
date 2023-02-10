@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/josemasf/interactive-card-details-form)
+- Live Site URL: [https://interactive-card-details-form-navy.vercel.app/](https://interactive-card-details-form-navy.vercel.app/)
 
 ### Built with
 
