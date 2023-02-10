@@ -22,7 +22,7 @@
 </script>
 
 <div
-	class="bg-[url('/bg-main-desktop.png')] bg-no-repeat h-full lg:h-[95%] lg:w-11/12 lg:my-5 flex w-full shadow-xl bg-slate-100"
+	class="bg-[url('/bg-main-mobile.png')] lg:bg-[url('/bg-main-desktop.png')] bg-no-repeat h-full lg:h-[95%] lg:w-11/12 lg:my-5 flex lg:flex-col w-full shadow-xl bg-slate-100"
 >
 	<div>
 		<FrontCard {...creditCard} />
@@ -104,7 +104,7 @@
 		<div>
 			<button
 				class="block w-full  mx-auto bg-[#21092F] hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold"
-				><i class="mdi mdi-lock-outline mr-1" /> Confirm</button
+				><i class="lg:i lg:i-lock-outline mr-1" /> Confirm</button
 			>
 		</div>
 	</div>
