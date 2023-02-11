@@ -14,7 +14,7 @@
 	$: cardNumber = creditCardNumber(number, '#### #### #### ####');
 </script>
 
-<div class="w-fit rounded-xl  text-slate-100 ">
+<div class="w-fit rounded-xl xl:relative  lg:left-28 text-slate-100 ">
 	<div class="relative z-10 top-60 md:top-60 mx-8">
 		<div class="text-lg md:text-xl lg:text-3xl w-full text-center tracking-widest">
 			{cardNumber}
